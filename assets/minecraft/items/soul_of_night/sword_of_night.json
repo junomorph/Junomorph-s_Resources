@@ -1,0 +1,24 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:keybind_down",
+		"keybind": "key.sneak",
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "minecraft:soul_of_night/item/sword_of_night/sneaking"
+		},
+		"on_false": {
+			"type": "minecraft:condition",
+			"property": "minecraft:using_item",
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "minecraft:soul_of_night/item/sword_of_night/using"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "minecraft:soul_of_night/item/sword_of_night/normal"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

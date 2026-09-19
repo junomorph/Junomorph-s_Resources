@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/3d/tech_tac_tools/flashbang/thrown"
+	},
+	"hand_animation_on_swap": true
+}
